@@ -206,11 +206,6 @@ int main()
        screen[screenWidth * screenHeight - 1] = '/0'; 
        WriteConsoleOutputCharacter(hConsole, screen, screenWidth * screenHeight, { 0, 0 }, & bytesWritten); 
     }
-
-
-
-
-    std::cout << "Hello World!\n";
     return 0; 
 }
 
